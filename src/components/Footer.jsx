@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <span className="opacity-70 self-center break-words font-['Signika'] font-medium text-[1rem] text-[var(--dark,#0A142F)]">
-           ©  2014 figma.com@saadshaikh
+           ©  2024 PC Designz
         </span>
       </div> 
     </>
