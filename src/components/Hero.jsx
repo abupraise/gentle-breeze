@@ -1,7 +1,11 @@
 import React from "react";
 import Man from "../assets/man.jpg";
 import Insta from "../assets/instagram.jpg";
+import Money from "../assets/money.jpg";
+import Time from "../assets/time.jpg";
+import Weight from "../assets/weight.jpg";
 //import Rectangle from "../assets/Rectangle.jpg";
+import Boxing from "../assets/boxing.jpg";
 
 export const Hero = () => {
   return (
@@ -59,6 +63,38 @@ export const Hero = () => {
       <div>
         <h1 className="text-[40px] flex items-center justify-center m-7">Why Choose us</h1>
         <p className="opacity-40 flex items-center justify-center">At Gentle Breeze fitness centre, we believe that fitness is a journey, not...</p>
+      </div>
+
+
+      <div>
+        <div className="flex flex-auto">
+          <div className="m-10">
+           <img src={Boxing} alt="boxing" /> <h1>Trainers Qualifications</h1>
+            <p>Hello world</p>
+          </div>
+
+          <div className="m-10">
+           <img src={Weight} alt="weight" /> <h1>Facility Amenities</h1>
+            <p>Hello world</p>
+          </div>
+
+        </div>
+
+        <div className="flex flex-auto">
+          <div className="m-10">
+           <img src={Money} alt="moneyBag" /> <h1>Membership</h1>
+            <p>Hello world</p>
+          </div>
+
+          <div className="m-10">
+           <img src={Time} alt="time" /> <h1>Operating Hours</h1>
+            <p>Hello world</p>
+          </div>
+
+        </div>
+
+       
+        
       </div>
     </div>
   );
