@@ -1,18 +1,18 @@
-import React from 'react'
-import Payment from '../components/Payment'
-import Reviews from '../components/Reviews'
-import { Navbar } from '../components/Navbar'
-import { Hero } from '../components/Hero'
+import React from "react";
+import Payment from "../components/Payment";
+import Reviews from "../components/Reviews";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 const LandingPage = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-      <Payment/>
-      <Reviews/>
+      <Payment />
+      <Reviews />
+      <Contact />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
