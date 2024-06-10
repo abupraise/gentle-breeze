@@ -1,20 +1,18 @@
-import React from "react";
-import SocialMediaLinks from "../components/SocialMediaLinks";
-import MenuLinks from "../components/MenuLinks";
-import Logo from "/assets/images/logo.svg";
+import React from 'react'
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer className="bg-white flex flex-col items-center w-full p-4 lg:p-8 relative">
-      <div className="flex flex-col lg:flex-row justify-between items-start w-full lg:w-3/4 mt-16 space-y-8 lg:space-y-0 lg:space-x-16">
-        <div className="flex flex-col items-start lg:items-start lg:text-left">
-          <img src={Logo} alt="Logo" className="w-28 h-12 mb-4" />
-          <span className="text-black opacity-40 font-signika text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis
+    <>
+           <div className="bg-[#FFFFFF] flex flex-col p-[0_0_1.2rem_0] w-[96.9rem] box-sizing-border">
+        <div className="bg-[linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65))] relative m-[0_0_4.2rem_0] flex flex-col items-center p-[7.6rem_0_7.5rem_0] w-[96.9rem] box-sizing-border">
+          <div className="opacity-[0.87] m-[0_0_1rem_0] inline-block break-words font-['Signika'] font-medium text-[1.5rem] tracking-[0rem] text-[#FFFFFF]">
+            Call us Today
+          </div>
+          <div className="opacity-[0.9] m-[0_0rem_1rem_0] inline-block break-words font-['Signika'] font-bold text-[3.9rem] uppercase text-[#FFFFFF]">
+            +91 - 8200060000
+          </div>
+          <span className="opacity-40 text-center break-words font-['Signika'] font-normal text-[1.1rem] text-[#FFFFFF]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
           </span>
         </div>
         <div className="m-[0_3.9rem_8.1rem_3.9rem] flex flex-row justify-between self-start w-[57.4rem] box-sizing-border">
@@ -81,11 +79,11 @@ const Footer = () => {
           </div>
         </div>
         <span className="opacity-70 self-center break-words font-['Signika'] font-medium text-[1rem] text-[var(--dark,#0A142F)]">
-           ©  2014 figma.com@saadshaikh
+           ©  2024 PC Designz
         </span>
       </div> 
     </>
   )
 }
 
-export default Footer;
+export default Footer
