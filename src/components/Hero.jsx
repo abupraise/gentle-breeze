@@ -125,9 +125,9 @@ export const Hero = () => {
             </div>
             <div className="w-[30%]">
             <img src={Coach3} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
-            <p>Name: Alhassan Kutigi</p>
-            <p>Position: Coach and Gym manager</p>
-            <p>Instagram: @ak_barfitness_wellness</p>
+            <p>Name: Auwal Umar Mainika</p>
+            <p>Position: Fitness Trainer</p>
+            <p>Instagram: @a_u_mainika</p>
             </div>
       </div>
     </div>
