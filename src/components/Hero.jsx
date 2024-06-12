@@ -48,11 +48,11 @@ export const Hero = () => {
           <span>Our community is growing fast</span>
         </div>
 
-        <div className="text-[#ffffff] pt-10 pb-10 m-7">
+        {/* <div className="text-[#ffffff] pt-10 pb-10 m-7">
           <h1 className="text-[40px]">2+ years</h1>
           <p>Years experience</p>
           <span>Experience in various workouts</span>
-        </div>
+        </div> */}
 
         <div className="text-[#ffffff] pt-10 pb-10 m-7">
           <h1 className="text-[40px]">90%</h1>
@@ -62,7 +62,7 @@ export const Hero = () => {
       </div>
 
       <div>
-        <h1 className="text-[40px] flex items-center justify-center m-7">
+        <h1 className="text-[40px] flex items-center justify-center m-15">
           Why Choose us
         </h1>
         <p className="opacity-40 flex items-center justify-center">
@@ -73,7 +73,7 @@ export const Hero = () => {
 
       <div className="grid grid-cols-2">
         <div>
-          <div className="flex flex-auto">
+          <div className="grid grid-cols-2">
             <div className="m-10">
               <img src={Boxing} alt="boxing" /> <h1>Trainers Qualifications</h1>
               <p>Hello world</p>
@@ -85,7 +85,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="flex flex-auto">
+          <div className="grid grid-cols-2">
             <div className="m-10">
               <img src={Money} alt="moneyBag" /> <h1>Membership</h1>
               <p>Hello world</p>
@@ -113,7 +113,11 @@ export const Hero = () => {
             <img src={Coach} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
             <p>Name: Alhassan Kutigi</p>
             <p>Position: Coach and Gym manager</p>
-            <p>Instagram: @ak_barfitness_wellness</p>
+            <div className="py-2">
+            <a href="https://www.instagram.com/ak_barfitness_?igsh=MTVmcHhqbGI4d2JyZA==">
+              <img src={Insta} alt="instagram" />
+            </a>
+          </div>
 
 
         </div>
@@ -121,13 +125,21 @@ export const Hero = () => {
             <img src={Coach1} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
             <p>Name: Sabiu Isah Galadima</p>
             <p>Position: Fitness Trainer</p>
-            <p>Instagram: @steelman_00</p>
+            <div className="py-2">
+            <a href="https://www.instagram.com/steelman_00?igsh=aTMxcDRqMDcyeGp6">
+              <img src={Insta} alt="instagram" />
+            </a>
+          </div>
             </div>
             <div className="w-[30%]">
             <img src={Coach3} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
             <p>Name: Auwal Umar Mainika</p>
             <p>Position: Fitness Trainer</p>
-            <p>Instagram: @a_u_mainika</p>
+            <div className="py-2">
+            <a href="https://www.instagram.com/a_u_mainika?igsh=M3Y2dGhqOWF6d2pv">
+              <img src={Insta} alt="instagram" />
+            </a>
+          </div>
             </div>
       </div>
     </div>
