@@ -9,6 +9,9 @@ import Boxing from "../assets/boxing.jpg";
 import Coach from "../assets/coach.jpeg"
 import Coach1 from "../assets/coach1.jpeg"
 import Coach3 from "../assets/coach3.jpeg"
+import Pic from "../assets/pic.jpg"
+import Pic2 from "../assets/pic2.jpg"
+import GymPic from "../assets/gymPic.jpg"
 
 export const Hero = () => {
   return (
@@ -71,8 +74,8 @@ export const Hero = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div>
+      <div className="grid grid-cols-2 py-10">
+        <div className="px-6">
           <div className="grid grid-cols-2">
             <div className="m-10">
               <img src={Boxing} alt="boxing" /> <h1>Trainers Qualifications</h1>
@@ -98,8 +101,12 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className="m-10">
-          <p>Insert pictures here</p>
+        <div className=" grid grid-cols-3 ">
+          <div className="grid grid-rows-2">
+          <img src={Pic2} alt="image" className="w-50"></img>
+          <img src={GymPic} alt="image" className="w-50"></img>
+          </div>
+          <img src={Pic} alt="image" className="w-50"></img>
         </div>
       </div>
 
