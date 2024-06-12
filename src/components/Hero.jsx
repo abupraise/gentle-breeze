@@ -6,6 +6,9 @@ import Time from "../assets/time.jpg";
 import Weight from "../assets/weight.jpg";
 //import Rectangle from "../assets/Rectangle.jpg";
 import Boxing from "../assets/boxing.jpg";
+import Coach from "../assets/coach.jpeg"
+import Coach1 from "../assets/coach1.jpeg"
+import Coach3 from "../assets/coach3.jpeg"
 
 export const Hero = () => {
   return (
@@ -103,6 +106,29 @@ export const Hero = () => {
       <div>
         <h1 className="text-[40px] flex items-center justify-center">Meet Our Trainers</h1>
         <p className="opacity-40 flex items-center justify-center">We have the most qualified and best tainers in the city of kano....</p>
+      </div>
+
+      <div className="flex justify-evenly w-full pt-10">
+        <div className="w-[30%]">
+            <img src={Coach} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
+            <p>Name: Alhassan Kutigi</p>
+            <p>Position: Coach and Gym manager</p>
+            <p>Instagram: @ak_barfitness_wellness</p>
+
+
+        </div>
+        <div className="w-[30%]">
+            <img src={Coach1} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
+            <p>Name: Sabiu Isah Galadima</p>
+            <p>Position: Fitness Trainer</p>
+            <p>Instagram: @steelman_00</p>
+            </div>
+            <div className="w-[30%]">
+            <img src={Coach3} alt="coach1" className=" rounded-3xl drop-shadow-2xl h-[370px] mb-5"></img>
+            <p>Name: Alhassan Kutigi</p>
+            <p>Position: Coach and Gym manager</p>
+            <p>Instagram: @ak_barfitness_wellness</p>
+            </div>
       </div>
     </div>
   );
